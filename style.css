@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+img{
+    width: 150px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(230, 255, 10);
+    /* border: 1px black; */
+}
+
+
+.container{
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: auto;
+    margin-top: 200px;
+    gap: 10px;
+   
+
+
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition:opacity 0.8s ease-in-out;
+}
+button:hover{
+    opacity: 0.7 ;
+}
+.buttons{
+    margin: 30px 0; 
+    display: flex;
+    gap: 40px;
+}
+#rock{
+    /* background-color: black; */
+    background-color: yellow;
+    /* margin-right: 10px; */
+}
+
+#paper{
+    background-color: yellow;
+    /* margin-right: 10px; */
+}
+#scissors{
+    /* background-color: black; */
+    background-color: yellow;
+}
+p,.result{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.result{
+    font-weight: bold;
+ 
+    color: #fff;
+}
+.your-score,.result{
+margin: 30px;
+font-weight: bolder;
+font-size: 20px;
+color: #fff;
+}
+.your-score > span{
+    color: rgb(214, 230, 3);
+}
+.machine-score{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.machine-score > span{
+color: rgb(241, 209, 25);
+}
